@@ -1,16 +1,17 @@
 public class Student {
-    Student student=new Student
-    public void fname() {
-    }
-    public void lname() {
-    }
-    public void indexNumber() {
-    }
-    public void email() {
-    }
-    public void address() {
-    }
-    public void grades() {
-    }
+    String fname;
+    String lname;
+    int indexNumber;
+    String email;
+    String address;
+   double grades;
+
+    public double getSrednia(){
+        double srednia=0;
+        for (int i=0; i<grades.length;i++){
+            srednia=grades[i];
+
+        }
+}
 }
 
