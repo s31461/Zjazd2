@@ -4,14 +4,16 @@ public class Student {
     int indexNumber;
     String email;
     String address;
-   double grades;
+    double grades;
 
-    public double getSrednia(){
-        double srednia=0;
-        for (int i=0; i<grades.length;i++){
-            srednia=grades[i];
+    public Student(String fname, String lname, int indexNumber, String email, String address, int grades) {
+        this.fname = fname;
+        this.lname = lname;
+        this.indexNumber = indexNumber;
+        this.email = email;
+        this.address = address;
+        this.grades = grades;
+    }
 
-        }
-}
-}
-
+    public static double getMean(double[] grades)
+}}
